@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { StyleSheet, Image, FlatList, View, Text, TextInput, StatusBar } from "react-native";
 import CoinItem from "@/components/CoinItem";
-import { GeckoToken } from "@env";
 
 export default function TabTwoScreen() {
 	const [coins, setCoins] = useState([]);
