@@ -18,7 +18,7 @@ export default function TabTwoScreen() {
 			method: "GET",
 			headers: {
 				accept: "application/json",
-				"x-cg-demo-api-key": process.env.GECKO_API_KEY,
+				"x-cg-demo-api-key": process.env.EXPO_PUBLIC_GECKO_API_KEY,
 			},
 		};
 
